@@ -13,6 +13,7 @@
 		04F9B9402B58365E0093C8D2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F9B93E2B58365E0093C8D2 /* Main.storyboard */; };
 		04F9B9422B5836600093C8D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 04F9B9412B5836600093C8D2 /* Assets.xcassets */; };
 		04F9B9452B5836600093C8D2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 04F9B9432B5836600093C8D2 /* LaunchScreen.storyboard */; };
+		04F9B94D2B583A190093C8D2 /* CustomAlert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 04F9B94C2B583A190093C8D2 /* CustomAlert.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		04F9B9412B5836600093C8D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		04F9B9442B5836600093C8D2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		04F9B9462B5836600093C8D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		04F9B94C2B583A190093C8D2 /* CustomAlert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomAlert.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +60,7 @@
 			children = (
 				04F9B9382B58365E0093C8D2 /* AppDelegate.swift */,
 				04F9B93A2B58365E0093C8D2 /* SceneDelegate.swift */,
+				04F9B94C2B583A190093C8D2 /* CustomAlert.swift */,
 				04F9B93C2B58365E0093C8D2 /* ViewController.swift */,
 				04F9B93E2B58365E0093C8D2 /* Main.storyboard */,
 				04F9B9412B5836600093C8D2 /* Assets.xcassets */,
@@ -141,6 +144,7 @@
 				04F9B93D2B58365E0093C8D2 /* ViewController.swift in Sources */,
 				04F9B9392B58365E0093C8D2 /* AppDelegate.swift in Sources */,
 				04F9B93B2B58365E0093C8D2 /* SceneDelegate.swift in Sources */,
+				04F9B94D2B583A190093C8D2 /* CustomAlert.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -9,11 +9,24 @@ import UIKit
 
 class ViewController: UIViewController {
 
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-        // Do any additional setup after loading the view.
+        
+        let customAlert = CustomAlertView(frame: CGRect(x: 0, y: 0, width: 380, height: 200))
+                customAlert.setTitle("Offer")
+                customAlert.setCancelButtonTitle("Cancel")
+                customAlert.setConfirmButtonTitle("Confirm")
+        
+                view.addSubview(customAlert)
+                customAlert.center = view.center
+        
     }
 
+    
+    
 
 }
 
